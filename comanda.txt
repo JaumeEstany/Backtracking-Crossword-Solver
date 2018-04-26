@@ -1,0 +1,12 @@
+2 parameters: crossword A o CB && the mode wished for the execution.
+default values -> A optimization+multithread
+combinacions:
+
+java -jar crossword.jar A normal
+java -jar crossword.jar CB normal
+
+java -jar crossword.jar A optimization
+java -jar crossword.jar CB optimization
+
+java -jar crossword.jar A optimization+multithread
+java -jar crossword.jar CB optimization+multithread
